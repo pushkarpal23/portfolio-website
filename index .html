@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushkar Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(68, 68, 160);
+            font-size: 1.05rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstsection>div {
+            width: 35%;
+
+
+        }
+
+        .leftsection {
+            font-size: 3rem;
+
+        }
+
+        .leftsection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(136, 51, 215);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(136, 51, 215);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #121037;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 123px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Pushkar Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Serives</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My Name Is <span class="purple">Pushkar</span>
+                <div>and I Am Passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg2 png.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I Have Done So Far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        A year ago I started learning HTML5 and CSS3 through freeCodeCamp. Prior to this, I don't have
+                        any basic knowledge about the markup language. I really started from the ground, hence my slow
+                        progress was expected.
+                        I finished the lessons after 5-6 months and not even completing the Projects. After the lessons,
+                        there are five projects that you must complete in order for you to gain the certificate. And I
+                        was so disappointed that I only finished one project and I couldn't accomplish the rest of them.
+                        .
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="js.png" alt="">
+                    <div class="vertical-title">
+                        javascript
+                    </div>
+                    <div class="vertical-desc">
+                        We do believe in the saying ‘change is the law of life’. If you’re a programmer, I think you
+                        would agree with me, hands down. Every programming language, every technology evolves day by
+                        day. Now if you take JavaScript, for example, JavaScript was implemented at first only to make
+                        web pages alive and be interactive with the user. Nowadays, JavaScript is used as client-side
+                        programming frameworks and as a server-side programming language/framework.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="php2.png" alt="">
+                    <div class="vertical-title">
+                        PHP
+                    </div>
+                    <div class="vertical-desc">
+                        Hello everyone, have a long time since I’ve written here on the blog for the last time and this
+                        is my first post in English, so if you find any grammatical error please let me know.
+
+                        Well, a long time ago I brought to here a very interesting post that talked about the evolution
+                        of a PHP programmer during his career, but this post is already outdated and was not written by
+                        me, so I decided to write a new article with my own words and experiences, so, let’s start !
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="node.png" alt="">
+                    <div class="vertical-title">
+                        Node.Js Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Welcome to the fascinating world of Node.js, where server-side JavaScript comes to life. If
+                        you’re eager to embark on a learning adventure with Node.js, this beginner’s guide will serve as
+                        your compass. In this blog post, I shall try to navigate through the essential concepts, tools,
+                        and resources required to master Node.js development from scratch.
+
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="png-clipart-java-logo-java-runtime-environment-computer-icons-java-platform-standard-edition-java-miscellaneous-text-thumbnaijava.png"
+                        alt="">
+                    <div class="vertical-title">
+                        Java
+                    </div>
+                    <div class="vertical-desc">
+                        Welcome to Journey Java, where we're brewing more than just coffee. We're a direct-to-consumer
+                        coffee brand with a mission that goes beyond the perfect cup. Our goal is to foster a community
+                        that encourages open conversations about men's mental health. We believe in the power of a
+                        simple cup of coffee to start a conversation, to bring awareness, and to create a safe space for
+                        everyone on their mental health journey.
+
+                        In a world where men's mental health is often overlooked and stigmatized, we're here to make a
+                        difference. We're committed to erasing the stigma that men are supposed to be emotionless. We
+                        believe that everyone should feel comfortable expressing their emotions and seeking help when
+                        needed
+                    </div>
+                </div>
+
+            </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Pushkar Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>About Me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>About Me</li>
+                </ul>
+            </div>
+            <div class="footer-Fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>About Me</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;Pushkarportfolio.com | All right reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Graphic Designer.', 'Video Editor.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
